@@ -1,8 +1,8 @@
 # MediaShare app
-A platform for rating the movies and video games you like. 
+A platform for rating the movies and video games you have watched or played. 
 
 Future featurs:
 User login
 Share app
-fetch data
-recommendation system
+Fetch data
+Recommendation system
