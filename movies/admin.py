@@ -3,6 +3,6 @@ from . import models
 
 # Register your models here.
 class MoviesAdmin(admin.ModelAdmin):
-    pass
+    list_display = ("title",)
 
-admin.site.register(models.models, MoviesAdmin)
+admin.site.register(models.Movie, MoviesAdmin)
