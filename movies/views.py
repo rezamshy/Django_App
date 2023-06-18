@@ -1,7 +1,17 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, CreateView, ListView
+from .models import Movie
 
 # Create your views here.
-class MoviesView(TemplateView):
+
+class CreateMovieView(CreateView):
+    template_name = "movies/create_movie.html"
+    model = Movie
+    fields = ["title", "poster"]
+    success_url = '/movies'
+
+
+class MoviesView(ListView):
     template_name = 'movies/movies.html'
-    extra_context = {'movies': 'https://www.omdbapi.com/src/poster.jpg'}
+    model = Movie
+    context_object_name = 'movies'

@@ -1,5 +1,14 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h1>Movies' list</h1>
-    <img src="{{movies}}" alt="Blade Runner 2049 image">
+    <header>
+        <h1>Movies' list</h1>
+    <header>
+    <ul>
+        {% for movie in movies %}  
+            <li>  
+                {{movie.title}} 
+                <img src="{{movie.poster}}" alt="Blade Runner 2049 image">
+            </li>
+        {% endfor %}
+    </ul>
 {% endblock %}

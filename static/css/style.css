@@ -1,8 +1,12 @@
+header {
+    margin: 5%;
+    background-color: beige;
+}
+
 body {
     background-color: darkolivegreen;
 }
 
 body h1 {
-    margin-top: 5%;
     text-align: center;
 }
