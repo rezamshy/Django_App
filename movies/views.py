@@ -7,7 +7,7 @@ from .models import Movie
 class CreateMovieView(CreateView):
     template_name = "movies/create_movie.html"
     model = Movie
-    fields = ["title", "poster"]
+    fields = ["title", "poster", "rate"]
     success_url = '/movies'
 
 
