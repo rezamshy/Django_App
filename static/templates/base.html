@@ -4,6 +4,13 @@
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
     </head>
     <body>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'movies.list' %}">Movies</a></li>
+                <li><a href="{% url 'movies.create' %}">Add Movie</a></li>
+            </ul>
+        </nav>
         {% block content %}
         {% endblock %}
     </body>
