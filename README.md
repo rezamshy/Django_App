@@ -23,7 +23,7 @@ In order to run the application:
   http://localhost:8000
   ```
 
-<img src="static/Screenshot.png"/>
+<img src="MediaShare_App/static/Screenshot.png"/>
 
 Future features:
 User login
