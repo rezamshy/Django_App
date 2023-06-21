@@ -1,13 +1,14 @@
 {% extends 'base.html' %}
 {% block content %}
     <header>
-        <h1>Movies' list</h1>
-    <header>
-    <ul>
+        <h1>Your Movies' list</h1>
+    </header>
+    <ul class='flexbox-container'>
         {% for movie in movies %}  
-            <li>  
-                {{movie.title}} 
-                <img src="{{movie.poster}}" alt="Blade Runner 2049 image">
+            <li class='flexbox-item' >  
+                <img src="{{movie.poster}}" alt="{{movie.title}}" style='width:100%'>
+                <p>{{movie.title}}</p>
+                <p>Rate: {{movie.rate}}/10</p>
             </li>
         {% endfor %}
     </ul>
