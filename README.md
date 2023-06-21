@@ -23,7 +23,7 @@ In order to run the application:
   http://localhost:8000
   ```
 
-<img src="my-app/public/Screenshot.png"/>
+<img src="static/Screenshot.png"/>
 
 Future features:
 User login
