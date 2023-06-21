@@ -26,7 +26,8 @@ In order to run the application:
 <img src="static/Screenshot.png"/>
 
 Future features:
-User login
-Share app
-Fetch data
-Recommendation system
+User login,
+Share your movies,
+Fetch movies from open-source movies API,
+Add video games,
+Recommendation system based on video games and movies
