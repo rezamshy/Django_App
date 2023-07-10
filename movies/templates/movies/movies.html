@@ -6,7 +6,7 @@
     <ul class='flexbox-container'>
         {% for movie in movies %}  
             <li class='flexbox-item' >  
-                <img src="{{movie.poster}}" alt="{{movie.title}}" style='width:100%'>
+                <img src="{{movie.poster_url}}" alt="{{movie.title}}" style='width:100%'>
                 <p>{{movie.title}}</p>
                 <p>Rate: {{movie.rate}}/10</p>
             </li>

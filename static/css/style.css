@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: Helvetica, Arial, Sans-Serif;
 }
 
 nav {
@@ -48,4 +49,12 @@ body p {
     width: 30%;
     height: 40%;
     display: table;
+}
+
+li p {
+    color: white;
+}
+
+label {
+    color: white;
 }
